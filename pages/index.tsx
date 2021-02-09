@@ -6,6 +6,7 @@ import { getSortedPostsData } from "../lib/posts";
 import Date from "../components/date";
 import React, { useState, useEffect, Fragment } from "react";
 import Tabletop from "Tabletop";
+
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
